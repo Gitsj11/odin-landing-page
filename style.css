@@ -56,3 +56,55 @@ button {
     background-color: #3882F6;
     color: white;
 }
+
+.img-one, .img-two, .img-three, .img-four {
+    height: 150px;
+    width: 150px;
+    border: 4px solid;
+    border-radius: 6px;
+    border-color: #3882F6;
+}
+
+.img-one-subtext, .img-two-subtext, .img-three-subtext, .img-four-subtext {
+    text-align: center;
+    padding-top: 8px;
+    display: flex;
+}
+
+.content-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.two-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+.content-img-subtext {
+    width: 160px;
+}
+
+.three-content {
+    background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+}
