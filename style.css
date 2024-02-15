@@ -3,6 +3,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
 
 a {
@@ -55,6 +65,9 @@ button {
     padding-right: 20px;
     background-color: #3882F6;
     color: white;
+    border-color: white;
+    height: 25px;
+    width: 100px;
 }
 
 .img-one, .img-two, .img-three, .img-four {
@@ -92,9 +105,15 @@ button {
     width: 160px;
 }
 
-.three-content {
+.three {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
+}
+.three-content {
     height: 250px;
+    width: 750px;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,4 +126,36 @@ button {
 
 .quote-author {
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
 }
+.four {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.four-content {
+    background-color: #3882F6;
+    display: flex;
+    padding: 3em;
+    gap: 8em;
+    padding-left: 6em;
+    padding-right: 6em;
+    align-items: center;
+}
+.four-main-text {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.four-sub-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
